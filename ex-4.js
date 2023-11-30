@@ -10,6 +10,9 @@ switch (lightBulbStatus) {
   case "off":
     console.log("Light bulb status is Off");
     break;
+  case "Broken":
+    console.log("Light bulb status is Off");
+    break;
   default:
     console.log("plese choose On/Off");
 }
