@@ -1,7 +1,7 @@
 let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+  bookName.includes("Beauty") ? favoriteBooks.push(bookName) : null;
 }
 
 // Example case
